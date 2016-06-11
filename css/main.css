@@ -1,0 +1,61 @@
+body{
+	font-family: Arial;
+	background: #90afc5;
+}
+/*h4{
+	background: #50d07d;
+	border: 2px solid #d02552;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	padding: 5px 5px 5px 5px;
+}
+
+.button {
+	font-size: 1em;
+	padding: 10px 10px 10px 10px;
+	background-color: white;
+	border-color: #d02552;
+	border: 2px solid;
+	border-radius: 10px;
+	color: blue;
+	text-align: center;
+	display: inline-block;
+	-webkit-transition-duration:0.4s;
+	transition-duration:0.4s;
+	cursor: pointer;
+}
+.button:hover{
+	background-color: #d02552;
+}*/
+#panel, #panel2, #panel3, #panel4, #panel5, #panel6, #panel7, #panel8, #panel9, #flip, #flip2, #flip3, #flip4, #flip5, #flip6, #flip7, #flip8, #flip9 {
+    padding: 5px;
+    text-align: center;
+    color: white;
+    background-color: #336ba7;
+    border: solid 2px #2a3132;
+
+}
+
+#flip, #flip2, #flip3, #flip4, #flip5, #flip6, #flip7, #flip8, #flip9{
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#panel, #panel2, #panel3,  #panel4, #panel5, #panel6, #panel7, #panel8, #panel9{
+    padding: 25px;
+    display: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+a {
+	color: lightgrey;
+}
+
+a:visited{
+	color:black;
+}
+
+a:hover{
+	color: darkgrey;
+}
